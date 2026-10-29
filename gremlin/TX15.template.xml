@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profile version="14">
+    <inputs>
+        <input>
+            <device-id>__RADIO_GUID__</device-id>
+            <input-type>axis</input-type>
+            <mode>Default</mode>
+            <input-id>1</input-id>
+            <action-configuration>
+                <root-action>61abe8c1-8961-4759-97a1-f56fc42c27db</root-action>
+                <behavior>axis</behavior>
+            </action-configuration>
+        </input>
+        <input>
+            <device-id>__RADIO_GUID__</device-id>
+            <input-type>axis</input-type>
+            <mode>Default</mode>
+            <input-id>2</input-id>
+            <action-configuration>
+                <root-action>d7d0ea2c-b32e-41b8-8f0e-be36f1d9623d</root-action>
+                <behavior>axis</behavior>
+            </action-configuration>
+        </input>
+        <input>
+            <device-id>__RADIO_GUID__</device-id>
+            <input-type>axis</input-type>
+            <mode>Default</mode>
+            <input-id>3</input-id>
+            <action-configuration>
+                <root-action>9875606b-0e29-466f-a3d6-2cfa2d55bd46</root-action>
+                <behavior>axis</behavior>
+            </action-configuration>
+        </input>
+        <input>
+            <device-id>__RADIO_GUID__</device-id>
+            <input-type>axis</input-type>
+            <mode>Default</mode>
+            <input-id>4</input-id>
+            <action-configuration>
+                <root-action>a73514d5-0f33-4359-8721-e81b12e0cd51</root-action>
+                <behavior>axis</behavior>
+            </action-configuration>
+        </input>
+        <input>
+            <device-id>__RADIO_GUID__</device-id>
+            <input-type>button</input-type>
+            <mode>Default</mode>
+            <input-id>2</input-id>
+            <action-configuration>
+                <root-action>268b947c-5506-4b03-a8c7-bc4b2beb84e4</root-action>
+                <behavior>button</behavior>
+            </action-configuration>
+        </input>
+        <input>
+            <device-id>__RADIO_GUID__</device-id>
+            <input-type>axis</input-type>
+            <mode>Default</mode>
+            <input-id>5</input-id>
+            <action-configuration>
+                <root-action>f5a58c94-6ef4-4ea3-8c26-3f232c741c48</root-action>
+                <behavior>button</behavior>
+                <virtual-button>
+                    <lower-limit>0.5</lower-limit>
+                    <upper-limit>1.0</upper-limit>
+                    <axis-button-direction>anywhere</axis-button-direction>
+                </virtual-button>
+            </action-configuration>
+        </input>
+    </inputs>
+    <settings>
+        <startup-mode>Use Heuristic</startup-mode>
+        <macro-default-delay>0.05</macro-default-delay>
+    </settings>
+    <logical-device />
+    <library>
+        <action id="61abe8c1-8961-4759-97a1-f56fc42c27db" type="root">
+            <actions>
+                <action-id>6822c6e5-05b0-4b78-8262-e8b9a69408b1</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Root</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="6822c6e5-05b0-4b78-8262-e8b9a69408b1" type="map-to-vjoy">
+            <property type="int">
+                <name>vjoy-device-id</name>
+                <value>1</value>
+            </property>
+            <property type="int">
+                <name>vjoy-input-id</name>
+                <value>1</value>
+            </property>
+            <property type="input_type">
+                <name>vjoy-input-type</name>
+                <value>axis</value>
+            </property>
+            <property type="axis_mode">
+                <name>axis-mode</name>
+                <value>absolute</value>
+            </property>
+            <property type="float">
+                <name>axis-scaling</name>
+                <value>1.0</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Roll (X)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>both</value>
+            </property>
+        </action>
+        <action id="d7d0ea2c-b32e-41b8-8f0e-be36f1d9623d" type="root">
+            <actions>
+                <action-id>689960f3-418b-4264-a74c-aaf20e9f0036</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Root</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="689960f3-418b-4264-a74c-aaf20e9f0036" type="map-to-vjoy">
+            <property type="int">
+                <name>vjoy-device-id</name>
+                <value>1</value>
+            </property>
+            <property type="int">
+                <name>vjoy-input-id</name>
+                <value>2</value>
+            </property>
+            <property type="input_type">
+                <name>vjoy-input-type</name>
+                <value>axis</value>
+            </property>
+            <property type="axis_mode">
+                <name>axis-mode</name>
+                <value>absolute</value>
+            </property>
+            <property type="float">
+                <name>axis-scaling</name>
+                <value>1.0</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Pitch (Y)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>both</value>
+            </property>
+        </action>
+        <action id="9875606b-0e29-466f-a3d6-2cfa2d55bd46" type="root">
+            <actions>
+                <action-id>fac22637-c440-44cf-992e-17fb8de3bd7c</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Root</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="fac22637-c440-44cf-992e-17fb8de3bd7c" type="map-to-vjoy">
+            <property type="int">
+                <name>vjoy-device-id</name>
+                <value>1</value>
+            </property>
+            <property type="int">
+                <name>vjoy-input-id</name>
+                <value>3</value>
+            </property>
+            <property type="input_type">
+                <name>vjoy-input-type</name>
+                <value>axis</value>
+            </property>
+            <property type="axis_mode">
+                <name>axis-mode</name>
+                <value>absolute</value>
+            </property>
+            <property type="float">
+                <name>axis-scaling</name>
+                <value>1.0</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Throttle (Z)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>both</value>
+            </property>
+        </action>
+        <action id="a73514d5-0f33-4359-8721-e81b12e0cd51" type="root">
+            <actions>
+                <action-id>07b16ab2-7990-4c70-99d0-1abd58dbba36</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Root</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="07b16ab2-7990-4c70-99d0-1abd58dbba36" type="map-to-vjoy">
+            <property type="int">
+                <name>vjoy-device-id</name>
+                <value>1</value>
+            </property>
+            <property type="int">
+                <name>vjoy-input-id</name>
+                <value>4</value>
+            </property>
+            <property type="input_type">
+                <name>vjoy-input-type</name>
+                <value>axis</value>
+            </property>
+            <property type="axis_mode">
+                <name>axis-mode</name>
+                <value>absolute</value>
+            </property>
+            <property type="float">
+                <name>axis-scaling</name>
+                <value>1.0</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Yaw (rotX)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>both</value>
+            </property>
+        </action>
+        <action id="268b947c-5506-4b03-a8c7-bc4b2beb84e4" type="root">
+            <actions>
+                <action-id>d7c3067a-bf0f-49ec-bbe6-4251d9480206</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Root</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="d7c3067a-bf0f-49ec-bbe6-4251d9480206" type="map-to-mouse">
+            <property type="string">
+                <name>mode</name>
+                <value>Button</value>
+            </property>
+            <property type="string">
+                <name>button</name>
+                <value>Left</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>SF = Fire (left mouse)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>both</value>
+            </property>
+        </action>
+        <action id="f5a58c94-6ef4-4ea3-8c26-3f232c741c48" type="root">
+            <actions>
+                <action-id>49cb9813-3d8d-4c73-b76c-04cb37106800</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Root</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="49cb9813-3d8d-4c73-b76c-04cb37106800" type="macro">
+            <property type="bool">
+                <name>is-exclusive</name>
+                <value>False</value>
+            </property>
+            <property type="bool">
+                <name>is-preemptive</name>
+                <value>False</value>
+            </property>
+            <property type="string">
+                <name>repeat-mode</name>
+                <value>Single</value>
+            </property>
+            <property type="int">
+                <name>repeat-count</name>
+                <value>1</value>
+            </property>
+            <property type="float">
+                <name>repeat-delay</name>
+                <value>0.1</value>
+            </property>
+            <macro-action type="key">
+                <property type="int">
+                    <name>scan-code</name>
+                    <value>34</value>
+                </property>
+                <property type="bool">
+                    <name>is-extended</name>
+                    <value>False</value>
+                </property>
+                <property type="bool">
+                    <name>is-pressed</name>
+                    <value>True</value>
+                </property>
+            </macro-action>
+            <macro-action type="pause">
+                <property type="float">
+                    <name>duration</name>
+                    <value>0.05</value>
+                </property>
+            </macro-action>
+            <macro-action type="key">
+                <property type="int">
+                    <name>scan-code</name>
+                    <value>34</value>
+                </property>
+                <property type="bool">
+                    <name>is-extended</name>
+                    <value>False</value>
+                </property>
+                <property type="bool">
+                    <name>is-pressed</name>
+                    <value>False</value>
+                </property>
+            </macro-action>
+            <property type="string">
+                <name>action-label</name>
+                <value>SE up = tap G</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>press</value>
+            </property>
+        </action>
+    </library>
+    <modes>
+        <mode>Default</mode>
+    </modes>
+    <scripts>
+        <script id="18b68f9f-36f0-4970-bfdb-b9aedfe99bcf">
+            <property type="path">
+                <name>path</name>
+                <value>__SCRIPT_PATH__</value>
+            </property>
+            <property type="string">
+                <name>name</name>
+                <value>SA flares</value>
+            </property>
+        </script>
+    </scripts>
+    <devices>
+        <device>
+            <device-id>__RADIO_GUID__</device-id>
+            <device-name>__RADIO_NAME__</device-name>
+        </device>
+        <device>
+            <device-id>__VJOY_GUID__</device-id>
+            <device-name>vJoy Device</device-name>
+        </device>
+    </devices>
+</profile>
